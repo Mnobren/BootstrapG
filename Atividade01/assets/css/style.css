@@ -1,0 +1,45 @@
+.row
+{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.col
+{
+    display: flex;
+    flex-flow: column;
+}
+
+.center
+{
+    align-items: center;
+    justify-content: center;
+}
+
+#menu > li
+{
+    justify-content: center;
+    display: inline;
+    padding: 15px;
+}
+#menu > li > a
+{
+    text-decoration: none;
+    color: black;
+}
+#menu > li > a:hover
+{
+    color: gray;
+}
+
+/***index.html***/
+.border
+{
+    border-radius: 50%;
+}
+
+.justify
+{
+    text-align: justify;
+}

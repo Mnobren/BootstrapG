@@ -1,14 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 .row
 {
     display: flex;
     flex-flow: row;
-    align-items: center;
 }
 
 .col
 {
     display: flex;
     flex-flow: column;
+}
+
+.col > div
+{
+    width: 100%;
+}
+
+.row > div
+{
+    height: 100%;
 }
 
 .center
@@ -34,6 +49,12 @@
 }
 
 /***index.html***/
+.screen-margin
+{
+    background-color: rgb(97, 74, 74);
+    overflow: visible;
+}
+
 .border
 {
     border-radius: 50%;
